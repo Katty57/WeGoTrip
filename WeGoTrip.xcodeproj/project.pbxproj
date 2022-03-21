@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE750C9627E6111E00ABD4E3 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE750C9527E6111E00ABD4E3 /* ReviewViewController.swift */; };
+		CE750C9F27E615EF00ABD4E3 /* Review+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE750C9D27E615EF00ABD4E3 /* Review+CoreDataClass.swift */; };
+		CE750CA027E615EF00ABD4E3 /* Review+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE750C9E27E615EF00ABD4E3 /* Review+CoreDataProperties.swift */; };
 		CECD8CEE27E4EF8B0096ACBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8CED27E4EF8B0096ACBB /* AppDelegate.swift */; };
 		CECD8CF027E4EF8B0096ACBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8CEF27E4EF8B0096ACBB /* SceneDelegate.swift */; };
 		CECD8CF227E4EF8B0096ACBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8CF127E4EF8B0096ACBB /* ViewController.swift */; };
@@ -14,9 +17,13 @@
 		CECD8CF827E4EF8B0096ACBB /* WeGoTrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CECD8CF627E4EF8B0096ACBB /* WeGoTrip.xcdatamodeld */; };
 		CECD8CFA27E4EF8F0096ACBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD8CF927E4EF8F0096ACBB /* Assets.xcassets */; };
 		CECD8CFD27E4EF8F0096ACBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD8CFB27E4EF8F0096ACBB /* LaunchScreen.storyboard */; };
+		CECD8D0527E4F2580096ACBB /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD8D0427E4F2580096ACBB /* RateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE750C9527E6111E00ABD4E3 /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		CE750C9D27E615EF00ABD4E3 /* Review+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		CE750C9E27E615EF00ABD4E3 /* Review+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		CECD8CEA27E4EF8B0096ACBB /* WeGoTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeGoTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD8CED27E4EF8B0096ACBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECD8CEF27E4EF8B0096ACBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,7 @@
 		CECD8CF927E4EF8F0096ACBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECD8CFC27E4EF8F0096ACBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECD8CFE27E4EF8F0096ACBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD8D0427E4F2580096ACBB /* RateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		CECD8CEC27E4EF8B0096ACBB /* WeGoTrip */ = {
 			isa = PBXGroup;
 			children = (
+				CE750C9D27E615EF00ABD4E3 /* Review+CoreDataClass.swift */,
+				CE750C9E27E615EF00ABD4E3 /* Review+CoreDataProperties.swift */,
 				CECD8CED27E4EF8B0096ACBB /* AppDelegate.swift */,
 				CECD8CEF27E4EF8B0096ACBB /* SceneDelegate.swift */,
 				CECD8CF127E4EF8B0096ACBB /* ViewController.swift */,
@@ -66,6 +76,8 @@
 				CECD8CFB27E4EF8F0096ACBB /* LaunchScreen.storyboard */,
 				CECD8CFE27E4EF8F0096ACBB /* Info.plist */,
 				CECD8CF627E4EF8B0096ACBB /* WeGoTrip.xcdatamodeld */,
+				CECD8D0427E4F2580096ACBB /* RateViewController.swift */,
+				CE750C9527E6111E00ABD4E3 /* ReviewViewController.swift */,
 			);
 			path = WeGoTrip;
 			sourceTree = "<group>";
@@ -143,8 +155,12 @@
 			files = (
 				CECD8CF227E4EF8B0096ACBB /* ViewController.swift in Sources */,
 				CECD8CEE27E4EF8B0096ACBB /* AppDelegate.swift in Sources */,
+				CE750C9F27E615EF00ABD4E3 /* Review+CoreDataClass.swift in Sources */,
+				CE750C9627E6111E00ABD4E3 /* ReviewViewController.swift in Sources */,
 				CECD8CF827E4EF8B0096ACBB /* WeGoTrip.xcdatamodeld in Sources */,
+				CECD8D0527E4F2580096ACBB /* RateViewController.swift in Sources */,
 				CECD8CF027E4EF8B0096ACBB /* SceneDelegate.swift in Sources */,
+				CE750CA027E615EF00ABD4E3 /* Review+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +237,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -276,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -309,7 +325,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wegotrip.yekaterina.tyan.WeGoTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -337,7 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wegotrip.yekaterina.tyan.WeGoTrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
